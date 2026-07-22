@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "name": "Signature Raspberry Cake",
+    "description": "Luxurious vanilla chiffon layers filled with organic raspberry compote, frosted with silk Swiss meringue buttercream, and topped with fresh raspberries.",
+    "price": 42.00,
+    "category": "cakes",
+    "image": "hero-cake.png",
+    "featured": true,
+    "rating": 4.9
+  },
+  {
+    "id": "2",
+    "name": "Artisanal Rosetta Latte",
+    "description": "Premium roasted espresso shots combined with perfectly steamed micro-foam milk, decorated with a hand-poured rosetta.",
+    "price": 5.50,
+    "category": "drinks",
+    "image": "latte-coffee.png",
+    "featured": true,
+    "rating": 4.8
+  },
+  {
+    "id": "3",
+    "name": "Royal Chocolate Truffle Slice",
+    "description": "Decadent dark chocolate sponge cake layered with rich Belgian chocolate ganache, decorated with fresh forest berries.",
+    "price": 8.50,
+    "category": "pastries",
+    "image": "chocolate-cake.png",
+    "featured": true,
+    "rating": 4.9
+  },
+  {
+    "id": "4",
+    "name": "Lemon Lavender Chiffon",
+    "description": "Light lemon chiffon cake infused with organic culinary lavender, frosted with creamy lemon curd whipped cream.",
+    "price": 7.50,
+    "category": "pastries",
+    "image": "lemon-pastry.png",
+    "featured": true,
+    "rating": 4.7
+  },
+  {
+    "id": "5",
+    "name": "Strawberry Crown Cupcake",
+    "description": "Fluffy vanilla cupcake topped with a generous swirl of strawberry whipped cream and a fresh crown strawberry.",
+    "price": 4.50,
+    "category": "pastries",
+    "image": "strawberry-cupcake.png",
+    "featured": true,
+    "rating": 4.8
+  },
+  {
+    "id": "6",
+    "name": "Salted Caramel Pecan Tart",
+    "description": "Buttery shortcrust pastry shell filled with rich housemade salted caramel and toasted premium pecans.",
+    "price": 6.75,
+    "category": "pastries",
+    "image": "strawberry-cupcake.png",
+    "featured": false,
+    "rating": 4.6
+  },
+  {
+    "id": "7",
+    "name": "Iced Matcha Pistachio Latte",
+    "description": "Ceremonial grade Japanese Uji matcha whisked with cold milk and sweet pistachio cream over artisanal ice.",
+    "price": 6.25,
+    "category": "drinks",
+    "image": "latte-coffee.png",
+    "featured": false,
+    "rating": 4.9
+  },
+  {
+    "id": "8",
+    "name": "Red Velvet Elegance Cake",
+    "description": "Velvety cocoa cake with signature crimson crumbs, layered with velvety sweet vanilla cream cheese frosting.",
+    "price": 38.00,
+    "category": "cakes",
+    "image": "hero-cake.png",
+    "featured": false,
+    "rating": 4.8
+  }
+]
