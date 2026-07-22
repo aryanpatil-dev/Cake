@@ -7,8 +7,8 @@
   --bg-secondary: hsl(var(--primary-hue), 40%, 94%);
   --bg-card: hsl(var(--primary-hue), 50%, 99%);
   
-  --text-main: hsl(var(--primary-hue), 25%, 25%);
-  --text-muted: hsl(var(--primary-hue), 15%, 45%);
+  --text-main: hsl(var(--primary-hue), 25%, 22%);
+  --text-muted: hsl(var(--primary-hue), 15%, 32%);
   --text-dark: hsl(var(--primary-hue), 45%, 12%);
   --text-white: #ffffff;
   

@@ -5,6 +5,10 @@
   padding: 140px 0 80px;
   position: relative;
   overflow: hidden;
+  background-image: url('../assets/hero-background.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container {
@@ -119,32 +123,10 @@
   background-color: var(--border-subtle);
 }
 
-.imageWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  z-index: 1;
-}
-
-.imageCircle {
-  position: relative;
+.imageSpacer {
   width: 100%;
-  max-width: 480px;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  background: radial-gradient(circle, var(--color-accent-light) 0%, transparent 70%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.heroImage {
-  width: 110%;
-  height: auto;
-  max-width: 500px;
-  object-fit: contain;
-  filter: drop-shadow(0 20px 40px rgba(54, 33, 20, 0.15));
+  aspect-ratio: 1.2;
+  pointer-events: none;
 }
 
 @media (max-width: 1024px) {
@@ -193,11 +175,12 @@
     width: 100%;
   }
 
-  .imageWrapper {
+  .imageSpacer {
     order: -1; /* Place image on top on mobile */
-  }
-
-  .imageCircle {
-    max-width: 320px;
+    height: 300px;
+    background-image: url('../assets/hero-background.jpg');
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Phone, Mail, Heart, MapPin } from 'lucide-react';
-import heroCake from '../assets/hero-cake.png';
 import styles from './Hero.module.css';
 
 const Hero: React.FC = () => {
@@ -82,28 +81,8 @@ const Hero: React.FC = () => {
           </motion.div>
         </motion.div>
 
-        {/* Right Column: Floating Image Showcase */}
-        <div className={styles.imageWrapper}>
-          <motion.div
-            className={styles.imageCircle}
-            initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ type: 'spring', stiffness: 60, damping: 20, delay: 0.4 }}
-          >
-            {/* Smooth floating animation */}
-            <motion.img 
-              src={heroCake} 
-              alt="Signature Raspberry Frosted Layer Cake" 
-              className={styles.heroImage}
-              animate={{ y: [0, -16, 0] }}
-              transition={{
-                duration: 5,
-                repeat: Infinity,
-                ease: 'easeInOut'
-              }}
-            />
-          </motion.div>
-        </div>
+        {/* Right Column: Empty spacer for background image positioning */}
+        <div className={styles.imageSpacer}></div>
       </div>
     </section>
   );
