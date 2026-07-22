@@ -139,48 +139,46 @@
   .hero {
     padding: 100px 0 60px;
     min-height: auto;
+    background-image: url('../assets/hero-background.jpg');
+    background-position: 50% 40%;
+    background-size: cover;
   }
-  
+
   .container {
     grid-template-columns: 1fr;
     gap: 40px;
     text-align: center;
   }
-  
+
   .content {
     align-items: center;
   }
-  
+
   .title {
     font-size: 42px;
   }
-  
+
   .description {
     font-size: 16px;
     margin: 0 auto 28px;
   }
-  
+
   .actions {
     justify-content: center;
     width: 100%;
   }
-  
+
   .primaryBtn {
     width: 100%;
     max-width: 280px;
   }
-  
+
   .features {
     justify-content: center;
     width: 100%;
   }
 
   .imageSpacer {
-    order: -1; /* Place image on top on mobile */
-    height: 300px;
-    background-image: url('../assets/hero-background.jpg');
-    background-position: right center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: none;
   }
 }
